@@ -1,0 +1,199 @@
+/* All kudos to Thomas Hardy (thomashardy.me.uk) for this cv template! */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+html, body {
+    background: #181818;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #404040;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    margin-bottom: -6px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-left: 2px;
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #427fed;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #404040;
+
+}
+
+section, .main-details {
+    overflow: hidden;
+}
+
+#cv {
+    width: 90%;
+    max-width: 800px;
+    background: #f3f3f3;
+    margin: 30px auto;
+}
+
+.main-details {
+    padding: 25px 35px;
+    border-bottom: 2px solid #404040;
+    background: #ededed;
+}
+
+#main-area {
+    padding: 0 40px;
+}
+
+#headshot {
+    width: 12.5%;
+    float: left;
+    margin-right: 30px;
+}
+
+#headshot img {
+    width: 100%;
+    height: auto;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#name {
+    float: left;
+}
+
+#contact-details {
+    float: right;
+}
+
+#contact-details ul {
+    list-style-type: none;
+    font-size: 0.9em;
+    margin-top: 2px;
+}
+
+#contact-details ul li {
+    margin-bottom: 3px;
+}
+
+section {
+    border-top: 1px solid #dedede;
+    padding: 20px 0 0;
+}
+
+section:first-child {
+    border-top: 0;
+}
+
+.section-title {
+    float: left;
+    width: 25%;
+}
+
+.section-content {
+    float: right;
+    width: 72.5%;
+}
+
+.section-title h1 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5em;
+    color: #427fed;
+    margin-bottom: 10px;
+}
+
+.section-content h2 {
+    font-size: 1.5em;
+    margin-bottom: -2px;
+}
+
+.sub-details {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-bottom: 3px;
+}
+
+@media all and (min-width: 602px) and (max-width: 800px) {
+    #headshot {
+        display: none;
+    }
+}
+
+@media all and (max-width: 601px) {
+    #cv {
+        width: 95%;
+        margin: 10px auto;
+        min-width: 280px;
+    }
+
+    #headshot {
+        display: none;
+    }
+
+    #name, #contact-details {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-title, .section-content {
+        float: none;
+        width: 100%;
+    }
+
+    .section-title {
+        margin-left: -2px;
+        font-size: 1.25em;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .main-details {
+        padding: 15px 15px;
+    }
+
+    section {
+        padding: 15px 0 0;
+    }
+
+    #main-area {
+        padding: 0 25px;
+    }
+
+    #name h1 {
+        line-height: .8em;
+        margin-bottom: 4px;
+    }
+}
+
+@media print {
+    #cv {
+        width: 100%;
+    }
+}
